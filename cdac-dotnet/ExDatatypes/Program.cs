@@ -1,4 +1,4 @@
-﻿using System.Runtime.CompilerServices;
+﻿using System;
 
 namespace ExDatatypes
 {
@@ -11,11 +11,11 @@ namespace ExDatatypes
             short sh = 30000;
             int i = 500000;
             uint ui = 5000000;
-            float f = 1.0f;
+            float f = 1.0F;
             double du = 5542442;
             long l = 5000000;
             ulong ul = 50000000;
-            decimal dec = 5000004555555555525;
+            decimal dec = 5000004555555555525M;
 
             char ch = 'a';
             string s = "uio";
