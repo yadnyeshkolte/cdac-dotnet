@@ -2,6 +2,14 @@
 
 namespace ExMultiInterface
 {
+
+
+
+    // C# doesnot support multiple inheritance with classes
+    // but with interfaces we can achieve multiple inheritance
+
+    // C# support hirarchical inheritance with interfaces
+    // C# support hirarchical inheritance with classes too
     interface ICar {
         void display();
     }
