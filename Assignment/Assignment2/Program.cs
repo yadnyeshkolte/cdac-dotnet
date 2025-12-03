@@ -4,7 +4,9 @@
     {
         static void Main(string[] args)
         {
-            
+            TypeOf.main();
+            Console.ReadKey();
+            Bot.main();
         }
     }
 }
