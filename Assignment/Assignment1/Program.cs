@@ -6,7 +6,6 @@ namespace Assignment1
     {
         static void Main(string[] args)
         {
-      
             Console.Write("Press any key to continue Q1: ");
             Console.ReadKey();
             Console.Write("Enter the radius of the circle: ");
@@ -46,7 +45,7 @@ namespace Assignment1
             Console.Write("Enter the number: ");
             int number = int.Parse(Console.ReadLine());
             if (number > 99999) { 
-                Console.WriteLine(90000);
+                Console.WriteLine(99000);
             }
             if (number <= 999)
             {
