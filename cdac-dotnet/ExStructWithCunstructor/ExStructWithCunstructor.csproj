@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ExMethodOverriding\ExMethodOverriding.csproj" />
+    <ProjectReference Include="..\CategoryClassLibrary-ExStructWithCunstructor\CategoryClassLibrary-ExStructWithCunstructor.csproj" />
   </ItemGroup>
 
 </Project>
