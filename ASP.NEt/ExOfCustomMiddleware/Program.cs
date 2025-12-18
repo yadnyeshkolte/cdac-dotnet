@@ -1,3 +1,4 @@
+using ExOfCustomMiddleware.CustomMiddleware;
 namespace ExOfCustomMiddleware
 {
     public class Program
@@ -7,23 +8,26 @@ namespace ExOfCustomMiddleware
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
+
             builder.Services.AddControllersWithViews();
+            builder.Services.AddTransient<MyCustomMiddleware>();
+
 
             var app = builder.Build();
 
+            app.Use(async (HttpContext context, RequestDelegate next) =>
+            {
+                await context.Response.WriteAsync("This is main class middleware \n");
+                await next(context);
+            });
+
+            app.UseMyCustomMiddlewareExtMethod();
 
 
-
-
-
-
-
-
-
-
-
-
-
+            app.Run(async (HttpContext context) =>
+            {
+                await context.Response.WriteAsync("This is run middleware \n");
+            });
 
 
 
