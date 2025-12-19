@@ -86,10 +86,6 @@ namespace ExOfMiddleware
             */
 
 
-            app.UseMiddleware<MyCustomMiddleware>();
-            app.UseMyCustomMiddleware();  //use of extension method
-
-
 
             //middleware 3
             app.Run(async (HttpContext context) => {
