@@ -4,8 +4,10 @@ namespace ExOfModels.Models
 {
     public class Book
     {
-        [FromQuery]
+        // this is not the poco class Plain Old CLR Object`
+        // if we remove the [FromQuery] it will be categorised as the POCO class
 
+        [FromQuery]
         public int? bookId { get; set; }
         public string? author { get; set; }
 

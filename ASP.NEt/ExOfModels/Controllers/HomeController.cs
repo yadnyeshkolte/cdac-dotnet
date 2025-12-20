@@ -7,8 +7,8 @@ namespace ExOfModels.Controllers
 
     ///bookstore/1/false?bookid=20&isloggedin=true&author=harsha
     {
-        [Route("bookstore/{bookId?}/{isloggedin?}")]
-        public IActionResult Index([FromQuery] int? bookId, [FromRoute] bool? isloggedin, Book book) 
+        [Route("bookstore/{bookId?}/{isloggedin?}/{author?}")]
+        public IActionResult Index([FromRoute] int? bookId, [FromRoute] bool? isloggedin, Book book) 
         {
             //return View();
             if (bookId.HasValue == false) {
