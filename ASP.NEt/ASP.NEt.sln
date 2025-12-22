@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExOfModelbinding", "ExOfMod
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExOfActionResult", "ExOfActionResult\ExOfActionResult.csproj", "{CFB60240-2C00-478C-A473-19A08792B458}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExOfRazorView", "ExOfRazorView\ExOfRazorView.csproj", "{D6DD317F-ED62-4B44-B370-F328F9EF5B36}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{CFB60240-2C00-478C-A473-19A08792B458}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFB60240-2C00-478C-A473-19A08792B458}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFB60240-2C00-478C-A473-19A08792B458}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6DD317F-ED62-4B44-B370-F328F9EF5B36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6DD317F-ED62-4B44-B370-F328F9EF5B36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6DD317F-ED62-4B44-B370-F328F9EF5B36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6DD317F-ED62-4B44-B370-F328F9EF5B36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

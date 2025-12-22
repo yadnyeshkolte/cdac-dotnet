@@ -1,0 +1,62 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@using ExOfRazorView.Models
+
+@* This is for the comments *@
+@{
+    List<Person> people = new List<Person>
+    {
+        new Person {name = "Yadnyesh", dob = Convert.ToDateTime("2024-06-24"), personGender = Gender.Male},
+        new Person {name = "Ojaswi", dob = Convert.ToDateTime("2023-07-30"), personGender = Gender.Female},
+        new Person {name = "Dissfs" , dob = Convert.ToDateTime("2021-03-21"), personGender = Gender.Others}
+    };
+
+}
+<!Doctype html>
+<html>
+<head>
+    <title>This is the ASP.NET Page</Title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse; /* Prevents double borders */
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #dddddd; /* This makes the grid lines visible */
+            text-align: center;
+            padding: 12px;
+        }
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is The Heading</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>DOB</th>
+                <th>Gender</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var p in people)
+            {
+                <tr>
+                    <td>@p.name</td>
+                    <td>@p.dob</td>
+                    <td>@p.personGender</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</body>
+
+</html>
