@@ -1,0 +1,24 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+﻿@using ExOfHtmlRaw.Models
+@{
+    List<Person> people = new List<Person>()
+    {
+        new Person() { name = "John", dob = DateTime.Parse("2000-05-06"), personGender = Gender.Male},
+        new Person() { name = "Linda", dob = DateTime.Parse("2005-01-09"), personGender = Gender.Female},
+        new Person() { name = "Susan", dob = DateTime.Parse("2008-07-12"), personGender = Gender.Others}
+    };
+}
+
+<!Doctype html>
+<html>
+    <head>
+        <title>
+            This is the ASP site
+        </title>
+    </head>
+    <body>
+        <h1>This are the Person Details</h1>
+    </body>
+</html>

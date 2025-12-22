@@ -1,13 +1,13 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace ExOfRazorView.Controllers
+namespace ExOfHtmlRaw.Controllers
 {
     public class HomeController : Controller
     {
-        [Route("home")]
+        [Route("/")]
         public IActionResult Index()
         {
-            return View("PersonDetails");
+            return View("persondetails");
         }
     }
 }

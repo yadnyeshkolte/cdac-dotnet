@@ -17,46 +17,9 @@
 <html>
 <head>
     <title>This is the ASP.NET Page</Title>
-    <style>
-        table {
-            width: 100%;
-            border-collapse: collapse; /* Prevents double borders */
-            margin-top: 20px;
-        }
-
-        th, td {
-            border: 1px solid #dddddd; /* This makes the grid lines visible */
-            text-align: center;
-            padding: 12px;
-        }
-        th {
-            background-color: #f2f2f2;
-            font-weight: bold;
-        }
-    </style>
 </head>
 <body>
     <h1>This is The Heading</h1>
-
-    <table>
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>DOB</th>
-                <th>Gender</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var p in people)
-            {
-                <tr>
-                    <td>@p.name</td>
-                    <td>@p.dob</td>
-                    <td>@p.personGender</td>
-                </tr>
-            }
-        </tbody>
-    </table>
 </body>
 
 </html>
