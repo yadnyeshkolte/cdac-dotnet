@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36717.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSRFAttack", "CSRFAttack\CSRFAttack.csproj", "{40799AFF-1722-44AA-97D0-80EFDEB38400}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSRFDefence", "CSRFDefence\CSRFDefence.csproj", "{4A8BDAAA-9ADE-4722-A7FE-38C0D7E48B41}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40799AFF-1722-44AA-97D0-80EFDEB38400}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40799AFF-1722-44AA-97D0-80EFDEB38400}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40799AFF-1722-44AA-97D0-80EFDEB38400}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40799AFF-1722-44AA-97D0-80EFDEB38400}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A8BDAAA-9ADE-4722-A7FE-38C0D7E48B41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A8BDAAA-9ADE-4722-A7FE-38C0D7E48B41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A8BDAAA-9ADE-4722-A7FE-38C0D7E48B41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A8BDAAA-9ADE-4722-A7FE-38C0D7E48B41}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0DCCA2A-8FDB-4A96-AAD8-CEE36AED103D}
+	EndGlobalSection
+EndGlobal

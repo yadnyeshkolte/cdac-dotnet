@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<div>
+    <h2>This is the Form</h2>
+    @* In this ASP.NET MVC code, "Home" refers to HomeController.cs *@
+    @using (Html.BeginForm("Create", "Home", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+       
+        <br />
+        @Html.Label("Enter the Username")
+        <br />
+        @Html.TextBox("uname")
+        <br /><br />
+        @Html.Label("Enter the password")
+        <br />
+        @Html.TextBox("password")
+        <br />
+        <br />
+        <input type="Submit" name="Submit" value="Go" />
+    }
+
+
+</div>
