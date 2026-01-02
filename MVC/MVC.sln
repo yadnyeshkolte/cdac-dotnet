@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSRFAttack", "CSRFAttack\CS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSRFDefence", "CSRFDefence\CSRFDefence.csproj", "{4A8BDAAA-9ADE-4722-A7FE-38C0D7E48B41}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bundling&Minimization", "Bundling&Minimization\Bundling&Minimization.csproj", "{F412B54D-5943-4ED3-A69A-60D33FAD45D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{4A8BDAAA-9ADE-4722-A7FE-38C0D7E48B41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A8BDAAA-9ADE-4722-A7FE-38C0D7E48B41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A8BDAAA-9ADE-4722-A7FE-38C0D7E48B41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F412B54D-5943-4ED3-A69A-60D33FAD45D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F412B54D-5943-4ED3-A69A-60D33FAD45D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F412B54D-5943-4ED3-A69A-60D33FAD45D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F412B54D-5943-4ED3-A69A-60D33FAD45D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
